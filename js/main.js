@@ -26,14 +26,6 @@ gsap.from(".hero div", {
   y: 50,
   opacity: 0,
   duration: 2,
-  // scrollTrigger: {
-  //   trigger: ".hero div",
-  //   start: "top 90%",
-  //   end: "top 85%",
-  //   scrub: 4,
-  //   // markers: true,
-  //   // pin: true,
-  // },
 });
 
 gsap.from(".intro img", {
@@ -87,35 +79,6 @@ gsap.from(".works .works-text-right", {
     scrub: 2,
   },
 });
-
-// gsap.from(".showcase", {
-//   y: 100,
-//   opacity: 0,
-//   duration: 2,
-//   stagger: 4,
-//   scrollTrigger: {
-//     trigger: ".showcase",
-//     start: "top 70%",
-//     end: "top 30%",
-//     markers: true,
-//     scrub: 2,
-//   },
-// });
-
-// var showcaseTL = gsap.timeline({
-//   scrolltrigger: {
-//     trigger: ".works-showcase",
-//     delay: 0.5,
-//     start: "top 50%",
-//     end: "top 25%",
-//     scrub: 2,
-//   },
-// });
-
-// showcaseTL.from(".showcase", {
-//   y: 20,
-//   opacity: 0,
-// });
 
 // showcase gsap
 gsap.from(".proj1", {
@@ -182,17 +145,6 @@ gsap.from(".proj5", {
     scrub: 2,
   },
 });
-
-// gsap.from(".ideation-topics", {
-//   x: 600,
-//   duration: 2,
-//   scrollTrigger: {
-//     trigger: ".ideation-topics",
-//     start: "top 50%",
-//     end: "top 20%",
-//     scrub: 2,
-//   },
-// });
 
 gsap.from(".idea1", {
   x: 400,
@@ -298,18 +250,7 @@ gsap.from("footer div", {
   },
 });
 
-// gsap.from(".ideation-topics div", {
-//   stagger: 0.5,
-//   scrollTrigger: {
-//     trigger: ".ideation-topics div",
-//     start: "top 50%",
-//     end: "top 20%",
-//     scrub: 2,
-//   },
-// });
-
 function displayTime() {
-  //   var currentDate = new Date().toLocaleDateString();
   var currentTime = new Date().toLocaleTimeString();
   document.getElementById("time").innerHTML = `${currentTime}`;
 }
