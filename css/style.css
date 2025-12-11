@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'Custom-Italic';
-    src: url('assets/Compagnon_Family/Compagnon-Italic.otf') format('opentype');
+    src: url('./assets/Compagnon_Family/Compagnon-Italic.otf') format('opentype');
 }
 @font-face {
     font-family: 'Custom-Light';
-    src: url('assets/Compagnon_Family/Compagnon-Light.otf') format('opentype');
+    src: url('./assets/Compagnon_Family/Compagnon-Light.otf') format('opentype');
 }
 @font-face {
     font-family: 'Custom-Medium';
-    src: url('assets/Compagnon_Family/Compagnon-Medium.otf') format('opentype');
+    src: url('./assets/Compagnon_Family/Compagnon-Medium.otf') format('opentype');
 }    
 @font-face {
     font-family: 'Custom-Roman';
-    src: url('assets/Compagnon_Family/Compagnon-Roman.otf') format('opentype');
+    src: url('./assets/Compagnon_Family/Compagnon-Roman.otf') format('opentype');
 } 
 @font-face {
     font-family: 'Custom-Script';
-    src: url('assets/Compagnon_Family/Compagnon-Script.otf') format('opentype');
+    src: url('./assets/Compagnon_Family/Compagnon-Script.otf') format('opentype');
 }        
         
 body{
     margin: 0 auto;
-    background-image: url(thumbnail.webp);
+    background-image: url(./assets/thumbnail.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow-x: hidden;
