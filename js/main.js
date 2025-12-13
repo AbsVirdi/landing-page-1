@@ -196,7 +196,7 @@ gsap.to(".marquee div", {
     start: "top 80%",
     end: "top 10%",
     scrub: 2,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -233,7 +233,7 @@ gsap.from("footer img", {
     trigger: "footer img",
     start: "top 70%",
     end: "top 40%",
-    markers: true,
+    // markers: true,
     scrub: 2,
   },
 });
